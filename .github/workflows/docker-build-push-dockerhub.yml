@@ -65,9 +65,9 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            docker.io/calendso/calendso
-            docker.io/calcom/cal.com
-            ghcr.io/calcom/cal.com
+            docker.io/elleryfamilia/calendso
+            docker.io/elleryfamilia/cal.com
+            ghcr.io/glancyinc/cal.com
 
       - name: Copy env
         run: |
@@ -118,3 +118,8 @@ jobs:
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
+
+
+# docker.io/calendso/calendso
+# docker.io/calcom/cal.com
+# ghcr.io/calcom/cal.com
