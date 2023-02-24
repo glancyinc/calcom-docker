@@ -65,7 +65,6 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            docker.io/elleryfamilia/calendso
             docker.io/elleryfamilia/cal.com
             ghcr.io/glancyinc/cal.com
 
